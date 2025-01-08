@@ -1,5 +1,6 @@
 <?php
 require('connect.php');
+session_start();
 $id = (int) $_GET['id'];
 $sql = "SELECT * FROM sanpham WHERE id = {$id}";
 
@@ -21,9 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         header('Location:hienthi.php');
 }
 }
-require('connect.php');
-session_start();
-
 $username = isset($_SESSION['user']) ? htmlspecialchars($_SESSION['user']) : "";
 $products = [];
 

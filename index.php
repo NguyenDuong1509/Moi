@@ -44,14 +44,7 @@ else header("Location:btl.php");
             </div>
             <ul id="main-menu">
                 <li><a href="index.php">Trang chủ</a></li>
-                <li><a href="#">Đĩa</a>
-                    <ul class="sub-menu">
-                        <li><a href="#">Game Ps4</a></li>
-                        <li><a href="#">Game Ps5</a></li>
-                        <li><a href="#">Game Nintendo Switch</a></li>
-                        <li><a href="#">Game Xbox One</a></li>
-                    </ul>
-                </li>
+                <li><a href="all_products.php"> Đĩa </a></li>
                 <li><a href="#">Danh sách khách hàng</a></li>
                 <li><a href="#">Doanh thu</a></li>
             </ul>
@@ -120,8 +113,8 @@ else header("Location:btl.php");
                     <div class="mySlides fade">
                         <img src="images/slideshow_5.jpg">
                     </div>
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    <a class="prev" onclick="plusSlides(-1)"></a>
+                    <a class="next" onclick="plusSlides(1)"></a>
                 </div>
             </div>
             <div id="content" style="display: flex; flex-wrap: wrap;">
